@@ -98,7 +98,7 @@ PHP 中的 socket 相关函数可参阅：https://www.php.net/manual/zh/ref.sock
 - socket_create: 创建一个socket
 - socket_set_nonblock:将 socket 设置为非阻塞
 - socket_connect:连接
-- socket_select:调用系统的 select 方法（结合非阻塞 IO 使用，NIO、BIO和 Selector的介绍和参阅：https://learnku.com/articles/65347）
+- socket_select:调用系统的 select 方法（结合非阻塞 IO 使用，NIO、BIO和 Selector的介绍可参阅：https://learnku.com/articles/65347）
 - socket_write:写入数据（发送数据）
 - socket_read:读取数据
 
