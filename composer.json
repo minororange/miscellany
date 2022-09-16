@@ -1,0 +1,21 @@
+{
+    "name": "minororange/async_socket",
+    "type": "lib",
+    "autoload": {
+        "psr-4": {
+            "Minororange\\AsyncSocket\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "minororange",
+            "email": "minororange@foxmail.com"
+        }
+    ],
+    "require": {
+      "ext-curl": "*",
+      "ext-pcntl": "*",
+      "ext-posix": "*",
+      "ext-sockets": "*"
+    }
+}
